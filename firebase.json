@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "luedke-cb8db",
+          "appId": "1:371772887866:android:427506dc02127c12943603",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "luedke-cb8db",
+          "configurations": {
+            "android": "1:371772887866:android:427506dc02127c12943603",
+            "ios": "1:371772887866:ios:65bf75756d54ebba943603",
+            "web": "1:371772887866:web:49fc57e8b1038b9b943603",
+            "windows": "1:371772887866:web:e5ada2d6326895a3943603"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewtrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
